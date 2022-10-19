@@ -24,41 +24,24 @@ def load_suppliers():
         row_suppliers = json.load(file)
         return row_suppliers
 
+
 def split_suppliers(data):
     id_suppliers = 0
     data_list = []
     for d in data:
         id_suppliers += 1
-        company_name = d['company_name']
-        # contact_name = ''.join(d['contact'].split(',')[0])
-        # contact_title = ''.join(d['contact'].split(',')[1])
-        # ad_county = ''.join(d['address'].split(';')[0])
-        # ad_state = ''.join(d['address'].split(';')[1])
-        # ad_index = ''.join(d['address'].split(';')[2])
-        # ad_city = ''.join(d['address'].split(';')[3])
-        # ad_street = ''.join(d['address'].split(';')[4])
-        # phone = d['phone']
-        # fax = d['fax']
-        # homepage = d['homepage']
-        # products = d['products']
-        # data_list.append(d['company_name']
-        #              ''.join(d['contact'].split(',')[0]),
-        #              ''.join(d['contact'].split(',')[1]),
-        #              ''.join(d['address'].split(';')[0]),
-        #              ''.join(d['address'].split(';')[1]),
-        #              ''.join(d['address'].split(';')[2]),
-        #              ''.join(d['address'].split(';')[3]),
-        #              ''.join(d['address'].split(';')[4]),
-        #              d['phone'],
-        #              d['fax'],
-        #              d['homepage'],
-        #                 d['products'])
-        print(company_name)
-
-        # return company_name, contact_name, contact_title,\
-        #        ad_county, ad_state, ad_index, ad_city, ad_street,\
-        #        phone, fax, homepage, products
-
+        data_list.append((id_suppliers, d['company_name'].replace("'", "/"),
+                          ''.join(d['contact'].split(',')[0]),
+                          ''.join(d['contact'].split(',')[1]).lstrip(),
+                          ''.join(d['address'].split(';')[0]),
+                          ''.join(d['address'].split(';')[1]).lstrip(),
+                          ''.join(d['address'].split(';')[2]).lstrip(),
+                          ''.join(d['address'].split(';')[3]).lstrip(),
+                          ''.join(d['address'].split(';')[4]).lstrip().replace("'", "/"),
+                          d['phone'],
+                          d['fax'],
+                          d['homepage'].replace("'", "/")))
+    return data_list
 
 
 def insert_into():
@@ -68,20 +51,23 @@ def insert_into():
     """
     pass
 
+
 def write_suppliers(data):
     """
     Записывает данные в sql файл
     :return:
     """
     with open('suppliers.sql', 'w', encoding='utf-8') as file:
-        # print(data)
-        for row in data:
-            print(data)
-            file.write(f'INSERT INTO suppliers VALUES {row}')
+        for d in data:
+            print(d)
+            file.writelines(f'INSERT INTO suppliers VALUES {d}\n')
+
 
 def main():
     data_suppliers = load_suppliers()
     changed_data = split_suppliers(data_suppliers)
-    # write_suppliers(changed_data)
+    write_suppliers(changed_data)
+
+
 if __name__ == '__main__':
     main()
