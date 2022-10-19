@@ -1,0 +1,369 @@
+[
+  {
+    "company_name": "Exotic Liquids",
+    "contact": "Charlotte Cooper, Purchasing Manager",
+    "address": "UK; ; EC1 4SD; London; 49 Gilbert St.",
+    "phone": "(171) 555-2222",
+    "fax": "",
+    "homepage": "",
+    "products": [
+      "Chang",
+      "Aniseed Syrup"
+    ]
+  },
+  {
+    "company_name": "New Orleans Cajun Delights",
+    "contact": "Shelley Burke, Order Administrator",
+    "address": "USA; LA; 70117; New Orleans; P.O. Box 78934",
+    "phone": "(100) 555-4822",
+    "fax": "",
+    "homepage": "#CAJUN.HTM#",
+    "products": [
+      "Chef Anton's Cajun Seasoning",
+      "Chef Anton's Gumbo Mix",
+      "Louisiana Fiery Hot Pepper Sauce",
+      "Louisiana Hot Spiced Okra"
+    ]
+  },
+  {
+    "company_name": "Grandma Kelly's Homestead",
+    "contact": "Regina Murphy, Sales Representative",
+    "address": "USA; MI; 48104; Ann Arbor; 707 Oxford Rd.",
+    "phone": "(313) 555-5735",
+    "fax": "(313) 555-3349",
+    "homepage": "",
+    "products": [
+      "Grandma's Boysenberry Spread",
+      "Uncle Bob's Organic Dried Pears",
+      "Northwoods Cranberry Sauce"
+    ]
+  },
+  {
+    "company_name": "Tokyo Traders",
+    "contact": "Yoshi Nagase, Marketing Manager",
+    "address": "Japan; ; 100; Tokyo; 9-8 Sekimai Musashino-shi",
+    "phone": "(03) 3555-5011",
+    "fax": "",
+    "homepage": "",
+    "products": [
+      "Mishi Kobe Niku",
+      "Ikura",
+      "Longlife Tofu"
+    ]
+  },
+  {
+    "company_name": "Cooperativa de Quesos 'Las Cabras'",
+    "contact": "Antonio del Valle Saavedra, Export Administrator",
+    "address": "Spain; Asturias; 33007; Oviedo; Calle del Rosal 4",
+    "phone": "(98) 598 76 54",
+    "fax": "",
+    "homepage": "",
+    "products": [
+      "Queso Cabrales",
+      "Queso Manchego La Pastora"
+    ]
+  },
+  {
+    "company_name": "Mayumi's",
+    "contact": "Mayumi Ohno, Marketing Representative",
+    "address": "Japan; ; 545; Osaka; 92 Setsuko Chuo-ku",
+    "phone": "(06) 431-7877",
+    "fax": "",
+    "homepage": "Mayumi's (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/mayumi.htm#",
+    "products": [
+      "Konbu",
+      "Tofu",
+      "Genen Shouyu"
+    ]
+  },
+  {
+    "company_name": "Pavlova, Ltd.",
+    "contact": "Ian Devling, Marketing Manager",
+    "address": "Australia; Victoria; 3058; Melbourne; 74 Rose St. Moonie Ponds",
+    "phone": "(03) 444-2343",
+    "fax": "(03) 444-6588",
+    "homepage": "",
+    "products": [
+      "Pavlova",
+      "Alice Mutton",
+      "Carnarvon Tigers",
+      "Vegie-spread",
+      "Outback Lager"
+    ]
+  },
+  {
+    "company_name": "Specialty Biscuits, Ltd.",
+    "contact": "Peter Wilson, Sales Representative",
+    "address": "UK; ; M14 GSD; Manchester; 29 King's Way",
+    "phone": "(161) 555-4448",
+    "fax": "",
+    "homepage": "",
+    "products": [
+      "Chai",
+      "Teatime Chocolate Biscuits",
+      "Sir Rodney's Marmalade",
+      "Sir Rodney's Scones",
+      "Scottish Longbreads"
+    ]
+  },
+  {
+    "company_name": "PB Kn\u00e4ckebr\u00f6d AB",
+    "contact": "Lars Peterson, Sales Agent",
+    "address": "Sweden; ; S-345 67; G\u00f6teborg; Kaloadagatan 13",
+    "phone": "031-987 65 43",
+    "fax": "031-987 65 91",
+    "homepage": "",
+    "products": [
+      "Gustaf's Kn\u00e4ckebr\u00f6d",
+      "Tunnbr\u00f6d"
+    ]
+  },
+  {
+    "company_name": "Refrescos Americanas LTDA",
+    "contact": "Carlos Diaz, Marketing Manager",
+    "address": "Brazil; ; 5442; Sao Paulo; Av. das Americanas 12.890",
+    "phone": "(11) 555 4640",
+    "fax": "",
+    "homepage": "",
+    "products": [
+      "Guaran\u00e1 Fant\u00e1stica"
+    ]
+  },
+  {
+    "company_name": "Heli S\u00fc\u00dfwaren GmbH & Co. KG",
+    "contact": "Petra Winkler, Sales Manager",
+    "address": "Germany; ; 10785; Berlin; Tiergartenstra\u00dfe 5",
+    "phone": "(010) 9984510",
+    "fax": "",
+    "homepage": "",
+    "products": [
+      "NuNuCa Nu\u00df-Nougat-Creme",
+      "Gumb\u00e4r Gummib\u00e4rchen",
+      "Schoggi Schokolade"
+    ]
+  },
+  {
+    "company_name": "Plutzer Lebensmittelgro\u00dfm\u00e4rkte AG",
+    "contact": "Martin Bein, International Marketing Mgr.",
+    "address": "Germany; ; 60439; Frankfurt; Bogenallee 51",
+    "phone": "(069) 992755",
+    "fax": "",
+    "homepage": "Plutzer (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/plutzer.htm#",
+    "products": [
+      "R\u00f6ssle Sauerkraut",
+      "Th\u00fcringer Rostbratwurst",
+      "Wimmers gute Semmelkn\u00f6del",
+      "Rh\u00f6nbr\u00e4u Klosterbier",
+      "Original Frankfurter gr\u00fcne So\u00dfe"
+    ]
+  },
+  {
+    "company_name": "Nord-Ost-Fisch Handelsgesellschaft mbH",
+    "contact": "Sven Petersen, Coordinator Foreign Markets",
+    "address": "Germany; ; 27478; Cuxhaven; Frahmredder 112a",
+    "phone": "(04721) 8713",
+    "fax": "(04721) 8714",
+    "homepage": "",
+    "products": [
+      "Nord-Ost Matjeshering"
+    ]
+  },
+  {
+    "company_name": "Formaggi Fortini s.r.l.",
+    "contact": "Elio Rossi, Sales Representative",
+    "address": "Italy; ; 48100; Ravenna; Viale Dante, 75",
+    "phone": "(0544) 60323",
+    "fax": "(0544) 60603",
+    "homepage": "#FORMAGGI.HTM#",
+    "products": [
+      "Gorgonzola Telino",
+      "Mascarpone Fabioli",
+      "Mozzarella di Giovanni"
+    ]
+  },
+  {
+    "company_name": "Norske Meierier",
+    "contact": "Beate Vileid, Marketing Manager",
+    "address": "Norway; ; 1320; Sandvika; Hatlevegen 5",
+    "phone": "(0)2-953010",
+    "fax": "",
+    "homepage": "",
+    "products": [
+      "Geitost",
+      "Gudbrandsdalsost",
+      "Flotemysost"
+    ]
+  },
+  {
+    "company_name": "Bigfoot Breweries",
+    "contact": "Cheryl Saylor, Regional Account Rep.",
+    "address": "USA; OR; 97101; Bend; 3400 - 8th Avenue Suite 210",
+    "phone": "(503) 555-9931",
+    "fax": "",
+    "homepage": "",
+    "products": [
+      "Sasquatch Ale",
+      "Steeleye Stout",
+      "Laughing Lumberjack Lager"
+    ]
+  },
+  {
+    "company_name": "Svensk Sj\u00f6f\u00f6da AB",
+    "contact": "Michael Bj\u00f6rn, Sales Representative",
+    "address": "Sweden; ; S-123 45; Stockholm; Brovallav\u00e4gen 231",
+    "phone": "08-123 45 67",
+    "fax": "",
+    "homepage": "",
+    "products": [
+      "Inlagd Sill",
+      "Gravad lax",
+      "R\u00f6d Kaviar"
+    ]
+  },
+  {
+    "company_name": "Aux joyeux eccl\u00e9siastiques",
+    "contact": "Guyl\u00e8ne Nodier, Sales Manager",
+    "address": "France; ; 75004; Paris; 203, Rue des Francs-Bourgeois",
+    "phone": "(1) 03.83.00.68",
+    "fax": "(1) 03.83.00.62",
+    "homepage": "",
+    "products": [
+      "C\u00f4te de Blaye",
+      "Chartreuse verte"
+    ]
+  },
+  {
+    "company_name": "New England Seafood Cannery",
+    "contact": "Robb Merchant, Wholesale Account Agent",
+    "address": "USA; MA; 02134; Boston; Order Processing Dept. 2100 Paul Revere Blvd.",
+    "phone": "(617) 555-3267",
+    "fax": "(617) 555-3389",
+    "homepage": "",
+    "products": [
+      "Boston Crab Meat",
+      "Jack's New England Clam Chowder"
+    ]
+  },
+  {
+    "company_name": "Leka Trading",
+    "contact": "Chandra Leka, Owner",
+    "address": "Singapore; ; 0512; Singapore; 471 Serangoon Loop, Suite #402",
+    "phone": "555-8787",
+    "fax": "",
+    "homepage": "",
+    "products": [
+      "Singaporean Hokkien Fried Mee",
+      "Ipoh Coffee",
+      "Gula Malacca"
+    ]
+  },
+  {
+    "company_name": "Lyngbysild",
+    "contact": "Niels Petersen, Sales Manager",
+    "address": "Denmark; ; 2800; Lyngby; Lyngbysild Fiskebakken 10",
+    "phone": "43844108",
+    "fax": "43844115",
+    "homepage": "",
+    "products": [
+      "Rogede sild",
+      "Spegesild"
+    ]
+  },
+  {
+    "company_name": "Zaanse Snoepfabriek",
+    "contact": "Dirk Luchte, Accounting Manager",
+    "address": "Netherlands; ; 9999 ZZ; Zaandam; Verkoop Rijnweg 22",
+    "phone": "(12345) 1212",
+    "fax": "(12345) 1210",
+    "homepage": "",
+    "products": [
+      "Zaanse koeken",
+      "Chocolade"
+    ]
+  },
+  {
+    "company_name": "Karkki Oy",
+    "contact": "Anne Heikkonen, Product Manager",
+    "address": "Finland; ; 53120; Lappeenranta; Valtakatu 12",
+    "phone": "(953) 10956",
+    "fax": "",
+    "homepage": "",
+    "products": [
+      "Maxilaku",
+      "Valkoinen suklaa",
+      "Lakkalik\u00f6\u00f6ri"
+    ]
+  },
+  {
+    "company_name": "G'day, Mate",
+    "contact": "Wendy Mackenzie, Sales Representative",
+    "address": "Australia; NSW; 2042; Sydney; 170 Prince Edward Parade Hunter's Hill",
+    "phone": "(02) 555-5914",
+    "fax": "(02) 555-4873",
+    "homepage": "G'day Mate (on the World Wide Web)#http://www.microsoft.com/accessdev/sampleapps/gdaymate.htm#",
+    "products": [
+      "Manjimup Dried Apples",
+      "Filo Mix",
+      "Perth Pasties"
+    ]
+  },
+  {
+    "company_name": "Ma Maison",
+    "contact": "Jean-Guy Lauzon, Marketing Manager",
+    "address": "Canada; Qu\u00e9bec; H1J 1C3; Montr\u00e9al; 2960 Rue St. Laurent",
+    "phone": "(514) 555-9022",
+    "fax": "",
+    "homepage": "",
+    "products": [
+      "Tourti\u00e8re",
+      "P\u00e2t\u00e9 chinois"
+    ]
+  },
+  {
+    "company_name": "Pasta Buttini s.r.l.",
+    "contact": "Giovanni Giudici, Order Administrator",
+    "address": "Italy; ; 84100; Salerno; Via dei Gelsomini, 153",
+    "phone": "(089) 6547665",
+    "fax": "(089) 6547667",
+    "homepage": "",
+    "products": [
+      "Gnocchi di nonna Alice",
+      "Ravioli Angelo"
+    ]
+  },
+  {
+    "company_name": "Escargots Nouveaux",
+    "contact": "Marie Delamare, Sales Manager",
+    "address": "France; ; 71300; Montceau; 22, rue H. Voiron",
+    "phone": "85.57.00.07",
+    "fax": "",
+    "homepage": "",
+    "products": [
+      "Escargots de Bourgogne"
+    ]
+  },
+  {
+    "company_name": "Gai p\u00e2turage",
+    "contact": "Eliane Noz, Sales Representative",
+    "address": "France; ; 74000; Annecy; Bat. B 3, rue des Alpes",
+    "phone": "38.76.98.06",
+    "fax": "38.76.98.58",
+    "homepage": "",
+    "products": [
+      "Raclette Courdavault",
+      "Camembert Pierrot"
+    ]
+  },
+  {
+    "company_name": "For\u00eats d'\u00e9rables",
+    "contact": "Chantal Goulet, Accounting Manager",
+    "address": "Canada; Qu\u00e9bec; J2S 7S8; Ste-Hyacinthe; 148 rue Chasseur",
+    "phone": "(514) 555-2955",
+    "fax": "(514) 555-2921",
+    "homepage": "",
+    "products": [
+      "Sirop d'\u00e9rable",
+      "Tarte au sucre"
+    ]
+  }
+]
