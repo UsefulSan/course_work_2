@@ -1,7 +1,11 @@
 import json
+from typing import Any
 
 
-def add_request():
+def add_request() -> str:
+    """
+    String to create an sql table of suppliers and add a new column to the products table
+    """
     request = f'CREATE TABLE IF NOT EXISTS suppliers(' \
               f'id_suppliers SERIAL PRIMARY KEY, ' \
               f'company_name VARCHAR(70), ' \
@@ -14,25 +18,33 @@ def add_request():
               f'ad_street VARCHAR(70), ' \
               f'phone VARCHAR(70), ' \
               f'fax VARCHAR(70), ' \
-              f'homepage VARCHAR(70));\n' \
+              f'homepage VARCHAR(100));\n' \
               f'ALTER TABLE products ADD id_suppliers INTEGER REFERENCES suppliers(id_suppliers);\n'
     return request
 
 
-def load_suppliers():
+def load_suppliers() -> str:
+    """
+    Loads data from a json file
+    :return: str data
+    """
     with open('suppliers.json', encoding='utf-8') as file:
         row_suppliers = json.load(file)
         return row_suppliers
 
 
-def split_suppliers(data):
+def split_suppliers(data: list[dict]) -> tuple[
+    list[tuple[int, Any, str, str, str, str, str, str, str, Any, Any, Any]], list[list[Any]]]:
+    """
+    Formats the data
+    :param data: process data
+    :return: data in lists
+    """
     id_suppliers = 0
     data_list = []
     product_list = []
     for d in data:
         id_suppliers += 1
-        products = d['products']
-        products = (products)
         data_list.append((id_suppliers, d['company_name'].replace("'", "/"),
                           ''.join(d['contact'].split(',')[0]),
                           ''.join(d['contact'].split(',')[1]).lstrip(),
@@ -44,44 +56,46 @@ def split_suppliers(data):
                           d['phone'],
                           d['fax'],
                           d['homepage'].replace("'", "/")))
-        # product_list.append(', '.join(d['products']).replace("'", "/"))
-        product_list.append(d['products'])
-        print(products)
-        # print(d['fax'])
-    # print(data_list)
-    # print(product_list)
+        prod = [i.replace("'", "''") for i in d['products']]
+        product_list.append(prod)
     return data_list, product_list
-
-# .
-# def do_id_for_products(data):
-#     for d in data:
-#         if d['products']:
-#             pass
 
 
 def write_request(request: str):
     """
-    Добавляет строки в sql запрос
+    Append strings to the sql file
     """
     with open('suppliers.sql', 'w', encoding='utf-8') as file:
         file.write(request)
 
 
-def write_suppliers(data):
+def write_suppliers(data: list[dict]):
     """
-    Записывает данные в sql файл
+    Write data to the sql file
     """
     with open('suppliers.sql', 'a', encoding='utf-8') as file:
         for d in data[0]:
             file.writelines(f'INSERT INTO suppliers VALUES {d};\n')
 
 
-def write_products(data):
+def write_products(data: list[dict]):
+    """
+    Write data to the sql file
+    """
     with open('suppliers.sql', 'a', encoding='utf-8') as file:
         counter = 0
         for d in data[1]:
             counter += 1
-            file.writelines(f"""UPDATE products SET id_suppliers = {counter} WHERE product_name IN ('{"','".join(d).replace("'", "/")}');\n""")
+            file.writelines(
+                f"""UPDATE products SET id_suppliers = {counter} WHERE product_name IN ('{"','".join(d)}');\n""")
+
+
+def request_customers_page():
+    """
+    Write string to the sql file
+    """
+    with open('customers_page.sql', 'a', encoding='utf-8') as file:
+        file.write("""SELECT COUNT (*) FROM (SELECT DISTINCT (city) FROM customers ORDER BY city ) AS foo;""")
 
 
 def main():
@@ -90,6 +104,7 @@ def main():
     changed_data = split_suppliers(data_suppliers)
     write_suppliers(changed_data)
     write_products(changed_data)
+    request_customers_page()
 
 
 if __name__ == '__main__':
