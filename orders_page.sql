@@ -2,11 +2,7 @@
 
 SELECT *
 FROM orders
-ORDER BY required_date DESC;
-
-SELECT *
-FROM orders
-ORDER BY shipped_date;
+ORDER BY required_date DESC, shipped_date;
 
 -- Найти среднее значение дней уходящих на доставку с даты формирования заказа в USA
 
