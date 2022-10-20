@@ -23,7 +23,7 @@ def add_request() -> str:
     return request
 
 
-def load_suppliers() -> str:
+def load_suppliers() -> list[dict]:
     """
     Loads data from a json file
     :return: str data
@@ -69,7 +69,7 @@ def write_request(request: str):
         file.write(request)
 
 
-def write_suppliers(data: list[dict]):
+def write_suppliers(data: Any):
     """
     Write data to the sql file
     """
@@ -78,7 +78,7 @@ def write_suppliers(data: list[dict]):
             file.writelines(f'INSERT INTO suppliers VALUES {d};\n')
 
 
-def write_products(data: list[dict]):
+def write_products(data: Any):
     """
     Write data to the sql file
     """
