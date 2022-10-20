@@ -90,21 +90,12 @@ def write_products(data: Any):
                 f"""UPDATE products SET id_suppliers = {counter} WHERE product_name IN ('{"','".join(d)}');\n""")
 
 
-def request_customers_page():
-    """
-    Write string to the sql file
-    """
-    with open('customers_page.sql', 'a', encoding='utf-8') as file:
-        file.write("""SELECT COUNT (*) FROM (SELECT DISTINCT (city) FROM customers ORDER BY city ) AS foo;""")
-
-
 def main():
     write_request(add_request())
     data_suppliers = load_suppliers()
     changed_data = split_suppliers(data_suppliers)
     write_suppliers(changed_data)
     write_products(changed_data)
-    request_customers_page()
 
 
 if __name__ == '__main__':
